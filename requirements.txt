@@ -1,0 +1,5 @@
+azure-functions
+azure-cognitiveservices-vision-face
+python-dotenv
+Pillow
+requests
