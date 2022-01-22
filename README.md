@@ -74,7 +74,7 @@ http://localhost:7071/api/draw?single=https://i.ibb.co/yVxyc09/ibai.jpg&multiple
 ### Test with CURL
 
 ```bash
-curl -d '{"single": "https://i.ibb.co/yVxyc09/ibai.jpg""multiple": "https://i.ibb.co/2jG2VLm/ibai-friends.jpg"}' -H "Content-Type: application/json" -X POST http://localhost:7071/api/similar
+curl -d '{"single": "https://i.ibb.co/yVxyc09/ibai.jpg","multiple": "https://i.ibb.co/2jG2VLm/ibai-friends.jpg"}' -H "Content-Type: application/json" -X POST http://localhost:7071/api/similar
 ```
 
 ### Output
