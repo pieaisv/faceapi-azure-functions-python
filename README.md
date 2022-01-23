@@ -80,11 +80,27 @@ curl -d '{"single": "https://i.ibb.co/yVxyc09/ibai.jpg","multiple": "https://i.i
 ### Output
 
 ```json
-{ "similar": true, "message": "Similar Faces" }
+{
+  "similar": true,
+  "message": "Similar Faces",
+  "facesNumber": {
+    "single": 1,
+    "multiple": 3
+  },
+  "drawUrl": "http://localhost:7071/api/draw?single=https://i.ibb.co/yVxyc09/ibai.jpg&multiple=https://i.ibb.co/2jG2VLm/ibai-friends.jpg"
+}
 ```
 
 ### If not similar
 
 ```json
-{ "similar": false, "message": "No similar faces found image.jpg" }
+{
+  "similar": false,
+  "message": "No similar faces found image.jpg",
+  "facesNumber": {
+    "single": 1,
+    "multiple": 1
+  },
+  "drawUrl": ""
+}
 ```
