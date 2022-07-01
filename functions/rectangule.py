@@ -22,7 +22,8 @@ def drawFaceRectangles(image_multiple_faces: str, first_detected_faces: list) ->
     draw = ImageDraw.Draw(img)
     for face in first_detected_faces:
         draw.rectangle(getRectangle(face), outline='red')
-
+    
+    # SAVES THE "FILE" IN MEMORY AND THEN RETURNS IT
     with BytesIO() as output:
         img.save(output, format="JPEG")
         return output.getvalue()
