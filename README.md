@@ -52,7 +52,7 @@ http://localhost:7071/api/draw?single=https://i.ibb.co/yVxyc09/ibai.jpg&multiple
 
 ### Multiple
 
-![multiple](https://i.ibb.co/2jG2VLm/ibai-friends.jpg)
+![multiple](https://i.ibb.co/2jG2VLm/ibai-friends.jpg )
 
 ### Output
 
