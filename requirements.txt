@@ -1,4 +1,4 @@
-azure-functions==1.11.2
+azure-functions==1.13.2
 azure-cognitiveservices-vision-face==0.6.0
 python-dotenv==0.21.0
 Pillow==9.3.0
